@@ -20,14 +20,6 @@ def factorial(n: int):
         return 0
     return n * factorial(n - 1)
 
-
-def factorial(n: int):
-    result = 1
-    for i in range(2, n + 1):
-        result *= i
-
-    return result
-
 def inf_loop():
     print("Bla-Bla-Bla")
     while True:
