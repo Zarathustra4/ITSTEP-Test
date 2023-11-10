@@ -20,6 +20,9 @@ def factorial(n: int):
         return 0
     return n * factorial(n - 1)
 
+def vlad():
+    print("What is pull request?")
+
 def inf_loop():
     print("Bla-Bla-Bla")
     while True:
