@@ -7,3 +7,7 @@ def input_cred():
     
     if login != "login" or password != "password":
         print("Wrong login or password")
+    elif login == "login" and password == "password":
+        print("Success")
+
+input_cred()
