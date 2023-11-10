@@ -15,6 +15,12 @@ def division(a, b):
         return a / b\
 
 
+def factorial(n: int):
+    if n == 0:
+        return 0
+    return n * factorial(n - 1)
+
+
 def inf_loop():
     print("Bla-Bla-Bla")
     while True:
